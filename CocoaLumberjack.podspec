@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
 
   s.preserve_paths = 'README.md'
 
+  s.static_framework = true
   s.ios.deployment_target     = '9.0'
   s.osx.deployment_target     = '10.10'
   s.watchos.deployment_target = '3.0'
